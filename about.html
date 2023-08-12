@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About Us</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="index.html"><img src="k_logo.jpeg" alt="Logo" width="25" height="25"></a>
+    </header>
+
+    <main>
+        <h1>About Us</h1>
+        <p>Welcome to our About Us page. Here, you'll learn more about our company and our mission.</p>
+
+        <section>
+            <h2>Our Story</h2>
+            <p>A page where you can contact us via the contact page</p>
+        </section>
+
+        <section>
+            <h2>Our Team</h2>
+            <p>We are a dedicated team of professionals passionate about our work and serving our customers.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Company. All rights reserved. Date/Time: <span id="time"></span></p>
+        <script>
+            function refreshTime() {
+                const timeDisplay = document.getElementById("time");
+                const dateString = new Date().toLocaleString();
+                const formattedString = dateString.replace(", ", " - ");
+                timeDisplay.textContent = formattedString;
+            }
+            setInterval(refreshTime, 1000)
+        </script>
+    </footer>
+</body>
+
+</html>
