@@ -1,5 +1,5 @@
 const products = [{
-        id: "1",
+        id: "first",
         name: 'Product 1',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         imageUrl: 'stockphoto1.jpeg',
@@ -7,7 +7,7 @@ const products = [{
     },
 
     {
-        id: "2",
+        id: "second",
         name: 'Product 2',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         imageUrl: 'stockphoto2.jpeg',
