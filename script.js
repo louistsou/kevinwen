@@ -1,4 +1,5 @@
-const productList = document.getElementById('product-list');
+// script.js
+const productList = document.getElementById('product-container');
 
 function displayProducts(products) {
     products.forEach(product => {
