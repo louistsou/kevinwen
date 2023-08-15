@@ -1,6 +1,6 @@
 // script.js
 function initMap() {
-    const center = { lat: 37.7749, lng: -122.4194 }; // Set your preferred center coordinates
+    const center = { lat: 33.8688, lng: 151.2093 }; // Set your preferred center coordinates
     const map = new google.maps.Map(document.getElementById('map'), {
         center: center,
         zoom: 12 // Set the initial zoom level
