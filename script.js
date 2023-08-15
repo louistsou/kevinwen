@@ -1,4 +1,3 @@
-// script.js
 const productList = document.getElementById('product-container');
 
 function displayProducts(products) {
