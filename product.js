@@ -1,17 +1,17 @@
-const products = [{
-        id: "product container",
-        name: 'Product 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        imageUrl: 'stockphoto1.jpeg',
-        price: 19.99
-    },
+import React from 'react';
 
-    {
-        id: "second",
-        name: 'Product 2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        imageUrl: 'stockphoto2.jpeg',
-        price: 19.99
-    }
+const Product = ({ product }) => {
+    return ( <
+        div className = "product" >
+        <
+        img src = { product.imageUrl }
+        alt = { product.name }
+        /> <
+        h2 > { product.name } < /h2> <
+        p > { product.description } < /p> <
+        p > $ { product.price.toFixed(2) } < /p> <
+        /div>
+    );
+};
 
-];
+export default Product;
