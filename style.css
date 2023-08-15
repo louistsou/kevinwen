@@ -52,6 +52,35 @@ td {
     text-align: left;
 }
 
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.product p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
 img {
     max-width: 100%;
     height: auto;
