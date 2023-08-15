@@ -1,4 +1,4 @@
-const productList = document.getElementById("first");
+const productList = document.getElementById('product-container');
 
 function displayProducts(products) {
     products.forEach(product => {
