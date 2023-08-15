@@ -1,5 +1,5 @@
 const products = [{
-        id: "first",
+        id: "product container",
         name: 'Product 1',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         imageUrl: 'stockphoto1.jpeg',

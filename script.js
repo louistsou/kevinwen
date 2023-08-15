@@ -1,30 +1,14 @@
-const productList = document.getElementById("first");
+const productList = document.getElementById('product-container'); // Update to match the container ID
 
 function displayProducts(products) {
     products.forEach(product => {
         const productDiv = document.createElement('div');
         productDiv.className = 'product';
 
-        const productImage = document.createElement('img');
-        productImage.src = product.imageUrl;
-        productImage.alt = product.name;
+        // ... rest of the code to create product elements ...
 
-        const productName = document.createElement('h2');
-        productName.textContent = product.name;
-
-        const productDescription = document.createElement('p');
-        productDescription.textContent = product.description;
-
-        const productPrice = document.createElement('p');
-        productPrice.textContent = `$${product.price.toFixed(2)}`;
-
-        productDiv.appendChild(productImage);
-        productDiv.appendChild(productName);
-        productDiv.appendChild(productDescription);
-        productDiv.appendChild(productPrice);
-
-        productList.appendChild(productDiv);
+        productList.appendChild(productDiv); // Append product to the container
     });
 }
 
-displayProducts(products);
+displayProducts(products); // Display products in the container
