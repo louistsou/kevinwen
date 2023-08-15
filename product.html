@@ -25,7 +25,7 @@
 
     <main>
         <h1>Product Catalog</h1>
-        <<main id="product-list">
+        <main id="product-list">
             <div class="product">
                 <img src="stockphoto1.jpeg" alt="Product 1">
                 <h2>Product 1</h2>
@@ -38,19 +38,19 @@
                 <p></p>
                 <p>$19.99</p>
             </div>
-    </main>
-    <footer>
-        <p>&copy; 2023 Your Company. All rights reserved. Date/Time: <span id="time"></span></p>
-        <script>
-            function refreshTime() {
-                const timeDisplay = document.getElementById("time");
-                const dateString = new Date().toLocaleString();
-                const formattedString = dateString.replace(", ", " - ");
-                timeDisplay.textContent = formattedString;
-            }
-            setInterval(refreshTime, 1000)
-        </script>
-    </footer>
+        </main>
+        <footer>
+            <p>&copy; 2023 Your Company. All rights reserved. Date/Time: <span id="time"></span></p>
+            <script>
+                function refreshTime() {
+                    const timeDisplay = document.getElementById("time");
+                    const dateString = new Date().toLocaleString();
+                    const formattedString = dateString.replace(", ", " - ");
+                    timeDisplay.textContent = formattedString;
+                }
+                setInterval(refreshTime, 1000)
+            </script>
+        </footer>
 
 </body>
 
